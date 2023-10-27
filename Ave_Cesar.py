@@ -28,13 +28,13 @@
 #         lst[i] = lst[i].upper()
 # lst = ''.join(lst)
 # print(lst)
-# text = input().lower().split()
-# str = []
-# letters_lower_eng = [chr(s).lower() for s in range(ord('a'), ord('z') + 1)]
-# for word in text:
-#     for letter in word:
-#         if letter in letters_lower_eng:
-#             str.append(''.join(letters_lower_eng).find(letter))
-# print(str)
+text = input().lower().split()
+str = []
+letters_lower_eng = [chr(s).lower() for s in range(ord('a'), ord('z') + 1)]
+for word in text:
+    for letter in word:
+        if letter in letters_lower_eng:
+            str.append(''.join(letters_lower_eng).find(letter))
+print(str)
 
 print(0x1AF2)
